@@ -105,11 +105,7 @@ div.blank{
 			background-color:white;
 			height:10%;
 		 }
-#list-1{
-   		float:left;
-   		font-size: 10px;
-   		margin:5px;
-  }
+
 div.playi{
 			background-color:green;
 			display:block;
@@ -120,6 +116,102 @@ div.playi{
 			top:30%;
 			width:100;
    		 }
+div.start{
+	            background-image: url("/home/webwerks1/TEJAS/images/hbg6.png");
+	            background-size:100%;
+                height:70%;
+		  }
+div.lorel-ipsum{
+				background-color:white;
+				display:block;
+				height:80%;
+				left:15%;
+				position:relative;
+				top:2%;
+				width:300;
+				float:left;
+				opacity: 0.9;
+				}
+div.origin{
+			background-color:white;
+			display:block;
+			height:80%;
+			right:15%;
+			position:relative;
+			top:2%;
+			width:300;
+			float:right;
+			opacity:0.9;
+		  }
+div.client{
+			background-image: url("/home/webwerks1/TEJAS/images/hbg5.png");
+		    background-size:100%;
+		    border:1px solid green;
+			height:50%;
+		  }
+div.blog-latest{
+				background-color:white;
+				height:65%;
+               }
+div.blog-1{
+			background-color:white;
+			display:block;
+			height:65%;
+			left:15%;
+			position:relative;
+			top:2%;
+			width:200;
+			float:left;
+			opacity: 0.9;
+	      }
+div.contact{
+			background-color:rgb(48,48,48) ;
+	        border:1px solid black;
+            height:70%;
+		   }
+div.contact-1{
+				height:50%;
+			 }
+div.contact-2{
+			height:150px;
+			left:15%;
+			position:relative;
+			top:2%;
+			width:200;
+			float:left;
+	      }
+div.footer{
+	       background-color: black;
+	       height:5%;
+}
+div.footer-1{
+			position:relative;
+			top:2%;
+			width:200;
+			float:left;
+	      }
+mark.mark-1{
+			background-color: white;
+			border:2px solid green;
+			opacity:0.8;
+			padding:3px;
+			}
+figure{
+		position:relative;
+		float:left;
+      }
+figcaption{
+			color:white;
+			font-size:10px;
+			left:4px
+			opacity:0.5;
+			position:relative;
+		  }
+#list-1{
+   		float:left;
+   		font-size: 10px;
+   		margin:5px;
+       }
 #img-1{
       	float:right;
       	height:150px;
@@ -170,7 +262,6 @@ div.playi{
 			height:40px;
 			left:150px;
 			position:relative;
-			top:50px;
 			width:190px;
 		 }
 #img-4{
@@ -182,12 +273,10 @@ div.playi{
 		
 	  }
 #button-3{
-			background-image: url(/home/webwerks1/TEJAS/images/icon1.png);
-			background-repeat: no-repeat;
-			background-position:right;
+			color: white;
 			background-color:green;
 			height:40px;
-			left:150px;
+			left:17%;
 			position:relative;
 			width:190px;
 		 }
@@ -195,3 +284,57 @@ div.playi{
 			left:150px;
 			position: relative;
 		 }
+#p-mark{
+		opacity:0.8;
+		position:relative;
+		right:200px;
+		top:50px;
+	 }
+#img-5{
+		height: 50px;
+		left:340px;
+		position:relative;
+		top:25;
+		width:50px;
+	  }
+#img-6{
+		float:left;
+		position: relative;
+		top:10%;
+		left:20%;
+		height:100px;
+		width:150px;
+	  }
+#button-5{
+			background-image: url(/home/webwerks1/TEJAS/images/icon7.png);
+			background-repeat: no-repeat;
+			background-position:right;
+			background-color:green;
+			height:40px;
+			left:50%;
+			position:relative;
+			top:15%;
+			width:190px;
+			border-radius: 5%;
+			color:white;
+		 }
+#button-6{
+			background-image: url(/home/webwerks1/TEJAS/images/icon6.png);
+			background-repeat: no-repeat;
+			background-position:right;
+			background-color:green;
+			height:40px;
+			left:50%;
+			position:relative;
+			top:15%;
+			width:190px;
+			border-radius: 5%;
+			color:white;
+		 }
+#foot{
+   		float:left;
+   		font-size: 10px;
+       }
+li.foot-menu:after{
+	content:"|";
+}
